@@ -1,6 +1,7 @@
-#2- Faça um programa que diga o maior divisor primo de um número dado como input
-
 def primo(numero):
+    '''
+    Programa que diz o maior divisor primo de um número dado como input
+    '''
     divisor = 2
     fatorado = []
 
