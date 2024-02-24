@@ -1,6 +1,6 @@
 def vrlista(lista):
     '''
-    Programa que diz se o primeiro e o último itens de uma lista são iguais.
+    Função que diz se o primeiro e o último itens de uma lista são iguais.
     '''
     if len(lista) < 2:
         print('A lista precisa ter pelo menos dois elementos para fazer a comparação!')

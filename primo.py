@@ -1,6 +1,6 @@
 def primo(numero):
     '''
-    Programa que diz o maior divisor primo de um número dado como input
+    Função que diz o maior divisor primo de um número dado como input
     '''
     divisor = 2
     fatorado = []
