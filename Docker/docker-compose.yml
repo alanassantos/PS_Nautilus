@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  ps_nautilus:
+    container_name: 'ps_nautilus'
+    image: 378707d5f1e4
+    privileged: true
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    network_mode: host
+    stdin_open: true
+    tty: true
