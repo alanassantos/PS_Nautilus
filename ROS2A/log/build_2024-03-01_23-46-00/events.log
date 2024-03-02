@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000556] (sistema) JobQueued: {'identifier': 'sistema', 'dependencies': OrderedDict()}
+[0.000874] (sistema) JobStarted: {'identifier': 'sistema'}
+[0.098369] (-) TimerEvent: {}
+[0.199714] (-) TimerEvent: {}
+[0.301051] (-) TimerEvent: {}
+[0.401656] (-) TimerEvent: {}
+[0.502273] (-) TimerEvent: {}
+[0.602980] (-) TimerEvent: {}
+[0.703553] (-) TimerEvent: {}
+[0.804214] (-) TimerEvent: {}
+[0.904842] (-) TimerEvent: {}
+[1.005540] (-) TimerEvent: {}
+[1.106205] (-) TimerEvent: {}
+[1.206798] (-) TimerEvent: {}
+[1.307624] (-) TimerEvent: {}
+[1.408296] (-) TimerEvent: {}
+[1.509047] (-) TimerEvent: {}
+[1.609962] (-) TimerEvent: {}
+[1.710673] (-) TimerEvent: {}
+[1.811498] (-) TimerEvent: {}
+[1.912237] (-) TimerEvent: {}
+[2.013773] (-) TimerEvent: {}
+[2.114584] (-) TimerEvent: {}
+[2.215320] (-) TimerEvent: {}
+[2.315986] (-) TimerEvent: {}
+[2.416634] (-) TimerEvent: {}
+[2.517253] (-) TimerEvent: {}
+[2.619222] (-) TimerEvent: {}
+[2.704432] (sistema) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema/build', '--no-deps', 'install_data'], 'cwd': '/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alana', 'GIT_ASKPASS': '/home/alana/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/alana', 'TERM_PROGRAM_VERSION': '1.87.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-52f2b988-8dae-4e12-9632-f0432aa19de4.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/alana/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/alana/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'alana', 'NAME': 'Alana', 'WSL_INTEROP': '/run/WSL/152303_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/alana/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Alana/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/Alana/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/Alana/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Alana/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d74b278b05.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema:/opt/ros/iron', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema/prefix_override:/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/lib/python3.10/site-packages:/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema:/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[2.719347] (-) TimerEvent: {}
+[2.820091] (-) TimerEvent: {}
+[2.920771] (-) TimerEvent: {}
+[3.021455] (-) TimerEvent: {}
+[3.122230] (-) TimerEvent: {}
+[3.222898] (-) TimerEvent: {}
+[3.323602] (-) TimerEvent: {}
+[3.424249] (-) TimerEvent: {}
+[3.525223] (-) TimerEvent: {}
+[3.625765] (-) TimerEvent: {}
+[3.718266] (sistema) StdoutLine: {'line': b'running develop\n'}
+[3.720388] (sistema) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.721577] (sistema) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.728672] (-) TimerEvent: {}
+[3.730456] (sistema) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.738644] (sistema) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.828846] (-) TimerEvent: {}
+[3.929425] (-) TimerEvent: {}
+[4.030116] (-) TimerEvent: {}
+[4.115941] (sistema) StdoutLine: {'line': b'running egg_info\n'}
+[4.117737] (sistema) StdoutLine: {'line': b'writing sistema.egg-info/PKG-INFO\n'}
+[4.122471] (sistema) StdoutLine: {'line': b'writing dependency_links to sistema.egg-info/dependency_links.txt\n'}
+[4.126524] (sistema) StdoutLine: {'line': b'writing entry points to sistema.egg-info/entry_points.txt\n'}
+[4.130116] (sistema) StdoutLine: {'line': b'writing requirements to sistema.egg-info/requires.txt\n'}
+[4.131128] (-) TimerEvent: {}
+[4.132395] (sistema) StdoutLine: {'line': b'writing top-level names to sistema.egg-info/top_level.txt\n'}
+[4.203688] (sistema) StdoutLine: {'line': b"reading manifest file 'sistema.egg-info/SOURCES.txt'\n"}
+[4.231252] (-) TimerEvent: {}
+[4.305926] (sistema) StdoutLine: {'line': b"writing manifest file 'sistema.egg-info/SOURCES.txt'\n"}
+[4.319888] (sistema) StdoutLine: {'line': b'running build_ext\n'}
+[4.320901] (sistema) StdoutLine: {'line': b'Creating /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/lib/python3.10/site-packages/sistema.egg-link (link to .)\n'}
+[4.331375] (-) TimerEvent: {}
+[4.351405] (sistema) StdoutLine: {'line': b'\n'}
+[4.352593] (sistema) StdoutLine: {'line': b'Installed /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema\n'}
+[4.355185] (sistema) StdoutLine: {'line': b'running install_data\n'}
+[4.431548] (-) TimerEvent: {}
+[4.475515] (sistema) CommandEnded: {'returncode': 0}
+[4.531659] (-) TimerEvent: {}
+[4.632222] (-) TimerEvent: {}
+[4.733015] (-) TimerEvent: {}
+[4.833802] (-) TimerEvent: {}
+[4.934747] (-) TimerEvent: {}
+[4.981119] (sistema) JobEnded: {'identifier': 'sistema', 'rc': 0}
+[4.990013] (-) EventReactorShutdown: {}

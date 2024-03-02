@@ -1,0 +1,20 @@
+[2.715s] Invoking command in '/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema': PYTHONPATH=/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema/prefix_override:/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema/build --no-deps install_data
+[3.719s] running develop
+[3.720s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.725s]   warnings.warn(
+[3.736s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.739s]   warnings.warn(
+[4.116s] running egg_info
+[4.117s] writing sistema.egg-info/PKG-INFO
+[4.122s] writing dependency_links to sistema.egg-info/dependency_links.txt
+[4.126s] writing entry points to sistema.egg-info/entry_points.txt
+[4.130s] writing requirements to sistema.egg-info/requires.txt
+[4.132s] writing top-level names to sistema.egg-info/top_level.txt
+[4.204s] reading manifest file 'sistema.egg-info/SOURCES.txt'
+[4.306s] writing manifest file 'sistema.egg-info/SOURCES.txt'
+[4.320s] running build_ext
+[4.321s] Creating /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/lib/python3.10/site-packages/sistema.egg-link (link to .)
+[4.351s] 
+[4.352s] Installed /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema
+[4.355s] running install_data
+[4.476s] Invoked command in '/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema' returned '0': PYTHONPATH=/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema/prefix_override:/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema/build --no-deps install_data

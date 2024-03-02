@@ -1,0 +1,6 @@
+parametros:
+  ros__parameters:
+  planetas:
+    Terra:
+      RaioOrbita: 6
+      SateliteTerra: 1

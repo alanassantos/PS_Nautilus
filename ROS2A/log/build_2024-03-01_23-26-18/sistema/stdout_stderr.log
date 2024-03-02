@@ -1,0 +1,29 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating sistema.egg-info
+writing sistema.egg-info/PKG-INFO
+writing dependency_links to sistema.egg-info/dependency_links.txt
+writing entry points to sistema.egg-info/entry_points.txt
+writing requirements to sistema.egg-info/requires.txt
+writing top-level names to sistema.egg-info/top_level.txt
+writing manifest file 'sistema.egg-info/SOURCES.txt'
+reading manifest file 'sistema.egg-info/SOURCES.txt'
+writing manifest file 'sistema.egg-info/SOURCES.txt'
+running build_ext
+Creating /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/lib/python3.10/site-packages/sistema.egg-link (link to .)
+
+Installed /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema
+running install_data
+creating /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/share/ament_index
+creating /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/share/ament_index/resource_index
+creating /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/share/ament_index/resource_index/packages
+copying resource/sistema -> /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/share/sistema
+creating /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/share/sistema/launch
+copying launch/launch.py -> /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/share/sistema/launch
+creating /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/share/sistema/config
+copying config/param.yaml -> /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/share/sistema/config

@@ -1,0 +1,21 @@
+[2.741s] Invoking command in '/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema': PYTHONPATH=/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema/prefix_override:/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema/build --no-deps install_data
+[3.645s] running develop
+[3.646s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.647s]   warnings.warn(
+[3.648s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.650s]   warnings.warn(
+[4.054s] running egg_info
+[4.056s] writing sistema.egg-info/PKG-INFO
+[4.061s] writing dependency_links to sistema.egg-info/dependency_links.txt
+[4.067s] writing entry points to sistema.egg-info/entry_points.txt
+[4.070s] writing requirements to sistema.egg-info/requires.txt
+[4.073s] writing top-level names to sistema.egg-info/top_level.txt
+[4.130s] reading manifest file 'sistema.egg-info/SOURCES.txt'
+[4.214s] writing manifest file 'sistema.egg-info/SOURCES.txt'
+[4.225s] running build_ext
+[4.226s] Creating /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/lib/python3.10/site-packages/sistema.egg-link (link to .)
+[4.263s] 
+[4.264s] Installed /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema
+[4.267s] running install_data
+[4.346s] copying config/param.yaml -> /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/share/sistema/config
+[4.396s] Invoked command in '/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema' returned '0': PYTHONPATH=/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema/prefix_override:/mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/install/sistema/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /mnt/c/Users/Alana/Documents/PS_Nautilus/ROS2A/build/sistema/build --no-deps install_data
